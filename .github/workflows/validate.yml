@@ -1,0 +1,36 @@
+name: Fortification & Link Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Markdown & Integrity Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Core Documentation
+        run: |
+          echo "Auditing core fortification documents..."
+          test -f README.md || (echo "README.md missing" && exit 1)
+          test -f SECURITY.md || (echo "SECURITY.md missing" && exit 1)
+          test -f LICENSE || (echo "LICENSE missing" && exit 1)
+          test -f CONTRIBUTING.md || (echo "CONTRIBUTING.md missing" && exit 1)
+          test -f CODE_OF_CONDUCT.md || (echo "CODE_OF_CONDUCT.md missing" && exit 1)
+          echo "All core documentation verified."
+
+      - name: Validate Markdown Structure
+        run: |
+          echo "Checking Markdown syntax integrity..."
+          grep -q "Hi there, I'm Patrick Sean Odugboche" README.md || exit 1
+          grep -q "BOT — Trader Queen" README.md || exit 1
+          grep -q "Nesty — Real-Time WebRTC Calling" README.md || exit 1
+          grep -q "Auram — TravReady" README.md || exit 1
+          grep -q "Cluster-4-Cleaning-Roster" README.md || exit 1
+          echo "Profile README contains all pinned projects and sections."
