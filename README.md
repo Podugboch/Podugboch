@@ -30,12 +30,12 @@ I am an **AI-Native Full-Stack & Systems Engineer** driven by building fault-tol
 
 Detailed engineering breakdown of flagship systems:
 
-```text
-| 1. BOT              | Algorithmic Engine   | ccxt, Python, Risk Layer
-| 2. Nesty            | Real-Time Social     | Go, WebRTC, React 19, Redis
-| 3. Auram            | AI Travel & Office   | Gemini AI, React, Capacitor
-| 4. Cluster-4-Roster | Facility Rotation    | TanStack Start, TypeScript
-```
+| Project Name        | Category           | Tech Stack                  |
+| :------------------ | :----------------- | :-------------------------- |
+| 1. BOT              | Algorithmic Engine | ccxt, Python, Risk Layer    |
+| 2. Nesty            | Real-Time Social   | Go, WebRTC, React 19, Redis |
+| 3. Auram            | AI Travel & Office | Gemini AI, React, Capacitor |
+| 4. Cluster-4-Roster | Facility Rotation  | TanStack Start, TypeScript  |
 
 ---
 
