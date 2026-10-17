@@ -196,12 +196,12 @@ Detailed engineering breakdown of flagship systems:
 ## 📊 GitHub Analytics & Repository Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Patrick's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="Patrick's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub Streak" width="97%" />
 </p>
 
 ---
