@@ -16,13 +16,7 @@
 
 ## 🚀 About Me
 
-I am an **AI-Native Full-Stack & Systems Engineer** driven by building fault-tolerant backend services, high-throughput real-time protocols, algorithmic trading infrastructure, and mobile-native user experiences.
-
-- ⚙️ **Systems & Concurrency**: Designing concurrent, asynchronous architectures in **Go (Golang)** and **Python** (WebSockets, WebRTC mesh, Redis clustering, multi-exchange execution engines).
-- 🌐 **Modern Frontend & Mobile**: Crafting fast, responsive client applications with **React 19**, **TypeScript**, **Tailwind CSS**, and **Capacitor** for native Android and cross-platform distribution.
-- 🤖 **AI-Native Integration**: Integrating conversational AI models (Google Gemini) grounded in real-time geospatial telemetry, microclimate forecasting, and domain-specific heuristics.
-- 🛡️ **Security & Robustness**: Practicing zero-trust secret handling, hardware kill switches, strict risk-gate filters, and comprehensive data validation.
-- ⚡ **Engineering Philosophy**: *"Design for extreme conditions, test against reality without lookahead bias, and build software that stays resilient when scale spikes."*
+I am an **AI-Native Full-Stack & Systems Engineer** specializing in fault-tolerant backend architectures, high-concurrency real-time protocols, and mobile client applications. My core engineering work focuses on systems programming in **Go** and **Python**, designing distributed WebSocket hubs, WebRTC mesh calling networks, and algorithmic trading execution engines. On the frontend and mobile layer, I build high-performance, responsive experiences using **React 19**, **TypeScript**, and **Capacitor** for cross-platform and native Android distribution. I actively ground generative AI into real-time applications with dynamic geospatial telemetry, robust risk gates, and zero-compromise security standards.
 
 ---
 
@@ -45,29 +39,11 @@ Detailed engineering breakdown of flagship systems:
 [![Language](https://img.shields.io/badge/Language-Python%203.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Podugboch/BOT)
 [![Framework](https://img.shields.io/badge/Exchange%20Engine-CCXT%20100+-F7931A?style=flat-square)](https://github.com/ccxt/ccxt)
 [![Architecture](https://img.shields.io/badge/Risk%20Layer-Circuit%20Breaker%20%2B%20KillSwitch-red?style=flat-square)](#)
-[![Testing](https://img.shields.io/badge/Test%20Suite-PyTest%20Passed-4493F8?style=flat-square&logo=pytest&logoColor=white)](#)
 
-> **An institutional-grade algorithmic cryptocurrency trading engine and quantitative backtester built on `ccxt`, supporting 100+ spot and derivatives exchanges with multi-stage mathematical entry filters, strict capital protection rules, and an asynchronous management dashboard.**
+> Institutional-grade algorithmic trading engine and quantitative backtester built on `ccxt`, executing across 100+ exchanges using multi-factor trend and dynamic Fibonacci filters. Features automated position sizing, hardware kill switches, daily loss circuit breakers, and an asynchronous live telemetry dashboard.
 
-#### 📐 Core Architecture & Signal Pipeline
-1. **Stage 1 (Core Trend & Momentum Trigger)**: Dual Exponential Moving Average (fast/slow EMA) crossover validated against Relative Strength Index (RSI) momentum and Average Directional Index (ADX) trend-strength thresholds to eliminate sideways and choppy market noise.
-2. **Stage 2 (Dynamic Fibonacci Retracement Filter)**: Rolling anchor lookback window (default 50 bars) computing automatic 38.2%, 50%, and 61.8% pullback zones with Average True Range (ATR) scaled dynamic tolerance bands (`fib_tolerance_atr_mult`). Includes signal touch persistence (`fib_touch_window`) to prevent signal starvation.
-3. **Stage 3 (Strict Capital & Risk Gate)**: Volatility-adjusted position sizing, fee-and-slippage simulation identical across backtest, paper trading, and live execution.
-
-#### 🛡️ Built-in Risk Management & Circuit Breakers
-- **Multi-Level Circuit Breakers**: Automatic trading suspension upon hitting daily maximum loss limits or consecutive losing streaks.
-- **Dynamic Trailing Stops & Hard Cutoffs**: Strict stop-loss calculation before any order enters the exchange pipeline.
-- **Instant Kill Switch**: Emergency hardware kill trigger via filesystem file drop (`touch KILL`), causing the engine to cleanly disengage on the next loop cycle.
-- **Asynchronous Live Web Dashboard**: Self-hosted, lightweight management console (`web_server.py`) with SQLite session auth (`auth.py`), user management (`users.db`), active orders view, and real-time execution log streaming.
-- **Pagination-Aware Historical Fetcher**: Robust bar-by-bar backtester capable of paginating up to 72,000+ candles across 250+ days within exchange rate limits, with zero lookahead bias.
-
-#### 🛠️ Tech Stack
-- **Core Engine**: Python 3.11+, `ccxt`, `asyncio`, NumPy, Pandas
-- **Storage & Auth**: SQLite, Storage Adapter, Argon2 / PBKDF2 password hashing, session tokens
-- **Monitoring & Interface**: Vanilla JavaScript Glassmorphic UI, Server-Sent Events / REST, WebSockets
-- **Testing**: `pytest`, synthetic scenario fuzzing, mock exchange sandboxes
-
-🔗 **Repository**: [https://github.com/Podugboch/BOT](https://github.com/Podugboch/BOT)
+- **Stack**: Python 3.11+, `ccxt`, `asyncio`, SQLite, WebSockets, `pytest`
+- **Links**: [GitHub Repository](https://github.com/Podugboch/BOT)
 
 ---
 
@@ -77,28 +53,12 @@ Detailed engineering breakdown of flagship systems:
 [![Backend](https://img.shields.io/badge/Backend-Go%201.25%20%7C%20Gin-00ADD8?style=flat-square&logo=go&logoColor=white)](https://golang.org)
 [![Frontend](https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![WebRTC](https://img.shields.io/badge/Calling-WebRTC%201080p-333333?style=flat-square&logo=webrtc)](https://webrtc.org)
-[![Scaling](https://img.shields.io/badge/Concurrency-100k%20Users%20Scale-success?style=flat-square)](#)
 [![Live Demo](https://img.shields.io/badge/Live%20Deployment-Render-46E3B7?style=flat-square&logo=render)](https://piscine-devnest.onrender.com)
 
-> **Next-generation, high-concurrency real-time social platform engineered to handle 100,000 concurrent users. Unites peer-to-peer 1080p WebRTC calling, short-form video reels with dual audio mixing, live broadcast streaming, anti-spam community channels, and direct messaging.**
+> High-concurrency social and real-time communication platform engineered to scale across 100k concurrent connections with 1080p WebRTC calling, dynamic group conferencing, and native Android lock-screen takeover. Combines short-form video reels with Jamendo music licensing, live streaming studios, Redis-backed WebSocket clusters, and direct messaging.
 
-#### 📐 Core Architecture & Real-Time Engineering
-1. **Ultra-Low Latency Calling Engine**: WebRTC peer-to-peer 1-on-1 audio/video calls, embedded community group conferencing with multi-track mesh broadcasting, dynamic renegotiation, screen sharing, and Coturn STUN/TURN NAT traversal.
-2. **Native Mobile Integration (Android & iOS)**: Packaged with Capacitor; features native Android lock-screen takeover via `TelecomManager`, foreground `CallStyle` notifications, and native incoming call screens alongside iOS CallKit readiness.
-3. **Short-Form Video Reels Engine**: Full-screen vertical swipe feed with gesture physics, Jamendo royalty-free soundtrack licensing, dual audio mixer (original video volume + soundtrack audio balance), and synchronized slide-up comment drawer.
-4. **Live Broadcast Studio**: Broadcaster interface supporting camera streaming, real-time screen sharing, interactive live chat streams, and audience participant tracking.
-5. **Anti-Spam Community System**: Role-based channel permissions (Creator, Admin, Co-Admin, Member) where users only see channels they own or are invited to, with invite validation workflows.
-6. **Distributed Scaling**: Horizontal multi-container WebSocket clustering powered by Redis Pub/Sub, connection-pooled PostgreSQL with GORM, and S3-compatible cloud storage for binary media assets.
-
-#### 🛠️ Tech Stack
-- **Backend**: Go (Golang) 1.25, Gin Framework, Gorilla WebSocket, GORM
-- **Frontend**: React 19, TypeScript, Vite, Web Audio & Canvas APIs, CSS3 Variables
-- **Database & Cache**: PostgreSQL (Supabase), Redis (Pub/Sub & Key-Value clustering)
-- **Mobile & Media**: Capacitor, Android Native Java/Kotlin Services, Supabase Storage, Jamendo API
-- **DevOps**: Multi-stage Dockerfile, Alpine Linux, Render Web Services
-
-🚀 **Live App**: [https://piscine-devnest.onrender.com](https://piscine-devnest.onrender.com)  
-🔗 **Repository**: [https://github.com/Podugboch/Nesty](https://github.com/Podugboch/Nesty)
+- **Stack**: Go 1.25, Gin, React 19, TypeScript, WebRTC, Redis Pub/Sub, Supabase, Capacitor, Docker
+- **Links**: [GitHub Repository](https://github.com/Podugboch/Nesty) • [Live App](https://piscine-devnest.onrender.com)
 
 ---
 
@@ -107,27 +67,12 @@ Detailed engineering breakdown of flagship systems:
 [![Repository](https://img.shields.io/badge/GitHub-Podugboch%2Fauram-181717?style=flat-square&logo=github)](https://github.com/Podugboch/auram)
 [![Frontend](https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![AI Model](https://img.shields.io/badge/AI%20Engine-Google%20Gemini%20Flash-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](https://ai.google.dev)
-[![Mobile](https://img.shields.io/badge/Mobile-Android%20APK%20%7C%20Capacitor-A4C639?style=flat-square&logo=android&logoColor=white)](https://github.com/Podugboch/auram/releases)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=flat-square&logo=vercel)](https://temporary-prompt-obsidian-rr1pbs6.vercel.app)
 
-> **An AI-native autonomous personal office and travel intelligence assistant built on a zero-hardcoded location architecture, pairing generative AI with live geospatial telemetry and curated African hospitality experiences.**
+> Autonomous personal office and travel intelligence assistant built on a zero-hardcoded location architecture with dynamic GPS telemetry, reverse geocoding, and real-time microclimate forecasting. Integrates Google Gemini conversational AI with offline NLP fallback, natural language task scheduling, African hospitality curation, and native Android distribution.
 
-#### 📐 Core Architecture & Intelligence Pipeline
-1. **Zero-Hardcoded Location Architecture**: Dynamically acquires hardware GPS and network telemetry (`navigator.geolocation`), performing live reverse-geocoding via OpenStreetMap Nominatim and BigDataCloud.
-2. **Dual-Mode Conversational AI**: Live Google Gemini integration (`gemini-3.6-flash`, `gemini-3.8-flash`) grounded with real-time telemetry, location coordinates, schedule items, and user context. Features automatic fallback to an in-memory rule-based NLP engine for seamless offline execution.
-3. **Office Workspace & Natural Language Quick-Add**: Automated NLP parser extracting dates, times, priority, and venues from unstructured conversational inputs (*"Schedule sync with engineering lead at 2pm tomorrow"*).
-4. **Microclimate Forecasting & Routing Corridor**: Real-time Open-Meteo meteorological forecasting for exact GPS coordinates, interactive Leaflet point-to-point route mapping, and 4-step progressive travel planning with dynamic packing checklists.
-5. **African Hospitality Curation**: Curated directories of premier hospitality, dining, and executive workspaces across Lagos, Abuja, Accra, Nairobi, and Kigali.
-6. **Cross-Platform Delivery**: Native Android deployment (`com.travready.app`) built with Capacitor, automated CI/CD compiling debug APKs via GitHub Actions on every push, and progressive web app (PWA) installation.
-
-#### 🛠️ Tech Stack
-- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons
-- **AI & NLP**: Google Gemini API, Custom Client NLP Engine, Streaming Markdown Parser
-- **Geospatial & APIs**: Leaflet, OpenStreetMap Nominatim, Open-Meteo Weather API, BigDataCloud
-- **Mobile & Storage**: Capacitor (Android native SDK), Supabase PostgreSQL, Vercel
-
-🚀 **Live App**: [https://temporary-prompt-obsidian-rr1pbs6.vercel.app](https://temporary-prompt-obsidian-rr1pbs6.vercel.app)  
-🔗 **Repository**: [https://github.com/Podugboch/auram](https://github.com/Podugboch/auram)
+- **Stack**: React 19, TypeScript, Vite, Tailwind CSS, Google Gemini API, Capacitor, Supabase, Leaflet
+- **Links**: [GitHub Repository](https://github.com/Podugboch/auram) • [Live App](https://temporary-prompt-obsidian-rr1pbs6.vercel.app)
 
 ---
 
@@ -136,24 +81,12 @@ Detailed engineering breakdown of flagship systems:
 [![Repository](https://img.shields.io/badge/GitHub-Podugboch%2FCluster--4--Cleaning--Roster-181717?style=flat-square&logo=github)](https://github.com/Podugboch/Cluster-4-Cleaning-Roster)
 [![Framework](https://img.shields.io/badge/Framework-TanStack%20Start%20%7C%20React%2019-FF4154?style=flat-square&logo=react)](https://tanstack.com/start)
 [![Language](https://img.shields.io/badge/Language-TypeScript%205.8-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS%204-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Deployment](https://img.shields.io/badge/Edge%20Deploy-Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare)](https://workers.cloudflare.com)
 
-> **A real-time, synchronized facility maintenance and duty scheduling platform designed for collaborative workspaces and educational clusters, featuring deterministic rotation algorithms and sub-second live session countdowns.**
+> Synchronized facility maintenance scheduler featuring deterministic rotation algorithms across 10 team tables with bi-weekly rollover on Mondays and Thursdays. Delivers a live sub-second countdown timer, dynamic table state tracking, and edge-rendered performance powered by TanStack Start.
 
-#### 📐 Core Architecture & System Logic
-1. **Deterministic Rotation State Machine**: Cyclical duty scheduling algorithm synchronizing 10 team tables across bi-weekly cleaning sessions (every Monday and Thursday at 00:00 local time). Computes current, next, and historical table duties from an immutable timeline anchor.
-2. **Sub-Second Reactive Countdown**: High-precision timer ticking every 1,000ms, displaying live days, hours, minutes, and seconds until the next duty handover.
-3. **Dynamic State Badging**: Real-time status categorization (`onDuty`, `next`, `done`, `upcoming`) with visual badge cues, intuitive progress trackers, and table assignment cards.
-4. **Zero-Latency Edge Architecture**: Built on modern **TanStack Start** and **TanStack Router**, leveraging Cloudflare Workers edge deployment with instant server-side hydration and asset minification.
-
-#### 🛠️ Tech Stack
-- **Framework & Routing**: TanStack Start, TanStack Router, React 19
-- **Languages & Typing**: TypeScript 5.8+, Zod schema validation
-- **Styling & UI**: Tailwind CSS 4, Radix UI primitives, Lucide Icons, Embla Carousel
-- **Deployment & Tooling**: Cloudflare Workers (Wrangler), Vite 7, Bun runtime
-
-🔗 **Repository**: [https://github.com/Podugboch/Cluster-4-Cleaning-Roster](https://github.com/Podugboch/Cluster-4-Cleaning-Roster)
+- **Stack**: React 19, TanStack Start, TanStack Router, TypeScript 5.8, Tailwind CSS 4, Cloudflare Workers
+- **Links**: [GitHub Repository](https://github.com/Podugboch/Cluster-4-Cleaning-Roster)
 
 ---
 
@@ -204,18 +137,17 @@ Detailed engineering breakdown of flagship systems:
 
 ## 🛡️ Fortification & Engineering Standards
 
-All repositories under the **Podugboch** namespace follow strict production-grade hardening:
+<p align="center">
+  <img src="https://img.shields.io/badge/Security-Zero--Trust%20Secrets-blue?style=flat-square&logo=githubactions" alt="Zero-Trust Secrets" />
+  <img src="https://img.shields.io/badge/Policy-SECURITY.md%20Active-green?style=flat-square" alt="Security Policy" />
+  <img src="https://img.shields.io/badge/CI%2FCD-Automated%20Integrity%20Audits-purple?style=flat-square&logo=githubactions" alt="Automated CI Audits" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="MIT License" />
+</p>
 
-1. **Security-First Paradigm**:
-   - Zero hardcoded credentials or API keys; all secrets are loaded dynamically through environment variables or secure secret managers.
-   - Circuit breakers and graceful degradation built into all networked services (trading engines, WebSocket clusters, AI endpoints).
-   - Responsible vulnerability disclosure process outlined in [`SECURITY.md`](SECURITY.md).
-2. **Quality & Continuous Verification**:
-   - Automated linting, link verification, and markdown structure validation via GitHub Actions ([`.github/workflows/validate.yml`](.github/workflows/validate.yml)).
-   - Continuous dependency auditing with Dependabot ([`.github/dependabot.yml`](.github/dependabot.yml)).
-3. **Open Collaboration**:
-   - Transparent contribution workflows and code reviews governed by [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
-   - Standardized MIT open-source licensing ([`LICENSE`](LICENSE)).
+- 🔒 **Zero-Trust Secrets**: Dynamic environment injection; zero hardcoded API keys, tokens, or private credentials.
+- ⚡ **Resilient Runtimes**: Hardware kill switches (`touch KILL`), circuit breakers, and graceful socket recovery.
+- 🧪 **Continuous Validation**: Automated GitHub Actions auditing markdown integrity, links, and documents on push.
+- 🤝 **Open Governance**: Standardized policies under [`SECURITY.md`](SECURITY.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), and [`LICENSE`](LICENSE).
 
 ---
 
