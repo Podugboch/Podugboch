@@ -30,15 +30,11 @@ I am an **AI-Native Full-Stack & Systems Engineer** driven by building fault-tol
 
 Detailed engineering breakdown of flagship systems:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                          FLAGSHIP REPOSITORIES                         │
-├─────────────────────┬────────────────────┬─────────────────────────────┤
-│ 1. BOT              │ Algorithmic Engine │ ccxt, Python, Risk Layer    │
-│ 2. Nesty            │ Real-Time Social   │ Go, WebRTC, React 19, Redis │
-│ 3. Auram            │ AI Travel & Office │ Gemini AI, React, Capacitor │
-│ 4. Cluster-4-Roster │ Facility Rotation  │ TanStack Start, TypeScript  │
-└─────────────────────┴────────────────────┴─────────────────────────────┘
+```text
+| 1. BOT              | Algorithmic Engine   | ccxt, Python, Risk Layer
+| 2. Nesty            | Real-Time Social     | Go, WebRTC, React 19, Redis
+| 3. Auram            | AI Travel & Office   | Gemini AI, React, Capacitor
+| 4. Cluster-4-Roster | Facility Rotation    | TanStack Start, TypeScript
 ```
 
 ---
@@ -196,12 +192,12 @@ Detailed engineering breakdown of flagship systems:
 ## 📊 GitHub Analytics & Repository Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="Patrick's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&v=2" alt="Patrick's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800&v=2" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub Streak" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true&cache_seconds=1800&v=2" alt="GitHub Streak" width="97%" />
 </p>
 
 ---
