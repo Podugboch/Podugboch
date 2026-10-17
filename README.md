@@ -39,7 +39,7 @@
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | 🛡️ [**chainshield**](https://github.com/Podugboch/chainshield) | AI Anti-Phishing Scanner & Crypto Scam Forensics Platform | JavaScript, AI, Security |
-| 🌐 [**Piscine-DevNest**](https://github.com/Podugboch/Piscine-DevNest) | Collaboration platform for Learn2Earn Piscine candidates to connect, share knowledge, and build community | Go, TypeScript, React, Vite |
+| 🌐 [**Nesty**](https://github.com/Podugboch/Nesty) | Collaboration platform for Learn2Earn Piscine candidates to connect, share knowledge, and build community | Go, TypeScript, React, Vite |
 | 🎓 [**STAC-Alumni-Connect-**](https://github.com/Podugboch/STAC-Alumni-Connect-) | Networking and community platform connecting alumni for mentorship and growth | Full-Stack Web |
 | ⚙️ [**myproject**](https://github.com/Podugboch/myproject) | Exploratory backend engineering and core systems programming in Go | Go |
 
