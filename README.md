@@ -1,7 +1,7 @@
 # Hi there, I'm Patrick Sean Odugboche 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=680&lines=AI-Native+Full-Stack+%26+Systems+Engineer;High-Throughput+Backends+in+Go+%26+Python;Real-Time+WebRTC%2C+Sockets+%26+Mobile+Architect;Algorithmic+Trading+%26+Risk+Engine+Builder;Building+Autonomous+AI-Driven+Platforms" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=AI-Native+Full-Stack+%26+Systems+Engineer;High-Throughput+Backends+in+Go+%26+Python;Real-Time+WebRTC%2C+Sockets+%26+Mobile+Architecture;Algorithmic+Trading+%26+Risk+Engine+Builder;Building+Autonomous+AI-Driven+Platforms" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <a href="https://x.com/Jaytricks35"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X" /></a>
   <a href="https://www.instagram.com/jaytricks_oche"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="mailto:odu.pisc@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Podugboch&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  <a href="https://github.com/Podugboch"><img src="https://img.shields.io/github/followers/Podugboch?label=Follow&style=for-the-badge&logo=github" alt="Follow" /></a>
 </p>
 
 ---
@@ -26,7 +26,7 @@ Detailed engineering breakdown of flagship systems:
 
 | Project Name        | Category           | Tech Stack                  |
 | :------------------ | :----------------- | :-------------------------- |
-| 1. BOT              | Algorithmic Engine | ccxt, Python, Risk Layer    |
+| 1. BOT              | Algorithmic Engine | CCXT, Python, Risk Layer    |
 | 2. Nesty            | Real-Time Social   | Go, WebRTC, React 19, Redis |
 | 3. Auram            | AI Travel & Office | Gemini AI, React, Capacitor |
 | 4. Cluster-4-Roster | Facility Rotation  | TanStack Start, TypeScript  |
@@ -42,7 +42,7 @@ Detailed engineering breakdown of flagship systems:
 
 > Institutional-grade algorithmic trading engine and quantitative backtester built on `ccxt`, executing across 100+ exchanges using multi-factor trend and dynamic Fibonacci filters. Features automated position sizing, hardware kill switches, daily loss circuit breakers, and an asynchronous live telemetry dashboard.
 
-- **Stack**: Python 3.11+, `ccxt`, `asyncio`, SQLite, WebSockets, `pytest`
+- **Stack**: Python 3.11+, CCXT, Asyncio, SQLite, WebSockets, PyTest
 - **Links**: [GitHub Repository](https://github.com/Podugboch/BOT)
 
 ---
@@ -110,13 +110,13 @@ Detailed engineering breakdown of flagship systems:
 ├─────────────────────────┼────────────────────────────────────────────────────────────────────────────────┤
 │ Languages               │ Go (Golang), Python, TypeScript, JavaScript, C, SQL, Bash / Shell, HTML5, CSS3 │
 │ Backend & Systems       │ Gin, GORM, WebSockets (Gorilla), Asyncio, Redis Pub/Sub, REST APIs             │
-│ Real-Time & Media       │ WebRTC (Mesh & P2P), Coturn STUN/TURN, Web Audio API, Canvas API               │
-│ Frontend Frameworks     │ React 19, TanStack Start, TanStack Router, Vite, Tailwind CSS 4, Radix         │
+│ Real-Time & Media       │ WebRTC (Mesh & P2P), Coturn STUN / TURN, Web Audio API, Canvas API             │
+│ Frontend Frameworks     │ React 19, TanStack Start, TanStack Router, Vite, Tailwind CSS 4, Radix UI      │
 │ Mobile Engineering      │ Capacitor, Android SDK (Java/Kotlin), Native Notification Services             │
 │ Databases & Storage     │ PostgreSQL, Supabase, Redis, SQLite, S3-Compatible Cloud Storage               │
 │ Cloud & DevOps          │ Docker, Cloudflare Workers, Render, Vercel, Supabase, Alpine Linux             │
 │ Quantitative & AI       │ CCXT (100+ Exchanges), Pandas, Google Gemini API, Technical Indicators         │
-│ Security & Standards    │ Zero-Trust Secret Handling, Kill Switches, Circuit Breakers, PBKDF2/Argon2     │
+│ Security & Standards    │ Zero-Trust Secret Handling, Kill Switches, Circuit Breakers, PBKDF2 / Argon2   │
 │ Tooling & Testing       │ Git, GitHub Actions CI/CD, PyTest, Bun, Linux System Administration            │
 └─────────────────────────┴────────────────────────────────────────────────────────────────────────────────┘
 ```
