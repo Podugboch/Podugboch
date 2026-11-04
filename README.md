@@ -1,24 +1,42 @@
-# Hi there, I'm Patrick Sean Odugboche 👋
+<!-- Animated Wave Header -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0077b6&height=220&section=header&text=Patrick%20Sean%20Odugboche&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI-Native%20Full-Stack%20%26%20Systems%20Engineer&descSize=18&descAlignY=55&descColor=60a5fa" width="100%" />
+</div>
 
+<!-- Typing SVG -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=AI-Native+Full-Stack+%26+Systems+Engineer;High-Throughput+Backends+in+Go+%26+Python;Real-Time+WebRTC%2C+Sockets+%26+Mobile+Architecture;Algorithmic+Trading+%26+Risk+Engine+Builder;Building+Autonomous+AI-Driven+Platforms" alt="Typing SVG" />
 </p>
 
+<!-- Social Links -->
 <p align="center">
   <a href="https://www.linkedin.com/in/patrick-sean-odugboche-826115176"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/Jaytricks35"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X" /></a>
   <a href="https://www.instagram.com/jaytricks_oche"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="mailto:odu.pisc@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/sponsors/Podugboch"><img src="https://img.shields.io/badge/❤️_Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" /></a>
   <a href="https://github.com/Podugboch"><img src="https://img.shields.io/github/followers/Podugboch?label=Follow&style=for-the-badge&logo=github" alt="Follow" /></a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🚀 About Me
 
-I am an **AI-Native Full-Stack & Systems Engineer** specializing in fault-tolerant backend architectures, high-concurrency real-time protocols, and mobile client applications. My core engineering work focuses on systems programming in **Go** and **Python**, designing distributed WebSocket hubs, WebRTC mesh calling networks, and algorithmic trading execution engines. On the frontend and mobile layer, I build high-performance, responsive experiences using **React 19**, **TypeScript**, and **Capacitor** for cross-platform and native Android distribution. I actively ground generative AI into real-time applications with dynamic geospatial telemetry, robust risk gates, and zero-compromise security standards.
+<table>
+<tr><td>🔧</td><td><b>Systems Engineering</b> — Fault-tolerant backends in <b>Go</b> & <b>Python</b>, distributed WebSocket hubs, Redis Pub/Sub clusters</td></tr>
+<tr><td>📡</td><td><b>Real-Time Protocols</b> — WebRTC mesh calling (1080p), native Android lock-screen takeover, live streaming studios</td></tr>
+<tr><td>📊</td><td><b>Algorithmic Trading</b> — Multi-exchange execution via CCXT, dynamic Fibonacci filters, hardware kill switches</td></tr>
+<tr><td>📱</td><td><b>Mobile & Frontend</b> — React 19, TypeScript, Capacitor for cross-platform & native Android distribution</td></tr>
+<tr><td>🤖</td><td><b>AI Integration</b> — Grounding generative AI into real-time apps with geospatial telemetry & dynamic risk gates</td></tr>
+<tr><td>📍</td><td><b>Based in</b> Otukpo, Nigeria</td></tr>
+</table>
 
----
+<!-- GitHub Trophies -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Podugboch&theme=darkhub&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" width="100%" />
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📌 Pinned Repositories
 
@@ -31,7 +49,7 @@ Detailed engineering breakdown of flagship systems:
 | 3. Auram            | AI Travel & Office | Gemini AI, React, Capacitor |
 | 4. Cluster-4-Roster | Facility Rotation  | TanStack Start, TypeScript  |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ### 1. 🪙 [BOT — Trader Queen: Algorithmic Multi-Exchange Trading System](https://github.com/Podugboch/BOT)
 
@@ -88,7 +106,7 @@ Detailed engineering breakdown of flagship systems:
 - **Stack**: React 19, TanStack Start, TanStack Router, TypeScript 5.8, Tailwind CSS 4, Cloudflare Workers
 - **Links**: [GitHub Repository](https://github.com/Podugboch/Cluster-4-Cleaning-Roster)
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🌟 Other Noteworthy Projects
 
@@ -100,7 +118,7 @@ Detailed engineering breakdown of flagship systems:
 | ⚙️ **DocDecoder** | High-efficiency document forensic decoder and automated structural metadata parser | Go, Python, Shell | [Repo](https://github.com/Podugboch/docdecoder) |
 | 🧪 **MyProject** | Exploratory low-level systems programming, memory management & network primitives | Go, C, Systems Tooling | [Repo](https://github.com/Podugboch/myproject) |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🛠️ Complete Technical Skill Matrix
 
@@ -121,20 +139,46 @@ Detailed engineering breakdown of flagship systems:
 └─────────────────────────┴────────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 GitHub Analytics & Repository Metrics
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800&v=2" alt="Patrick's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800&v=2" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Podugboch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=60a5fa&icon_color=60a5fa&text_color=c9d1d9" alt="Patrick's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Podugboch&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=60a5fa&text_color=c9d1d9" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true&cache_seconds=1800&v=2" alt="GitHub Streak" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Podugboch&theme=tokyonight&hide_border=true&background=0d1117&stroke=30363d&ring=60a5fa&fire=f97316&currStreakLabel=60a5fa" alt="GitHub Streak" width="97%" />
 </p>
 
----
+<!-- Contribution Activity Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Podugboch&bg_color=0d1117&color=60a5fa&line=60a5fa&point=f97316&area=true&area_color=1a1b27&hide_border=true" width="100%" />
+</div>
+
+<br/>
+
+<!-- Contribution Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Podugboch/Podugboch/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Podugboch/Podugboch/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Podugboch/Podugboch/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 💖 Support My Work
+
+If my projects, tools, or open-source contributions have helped you — consider sponsoring my engineering work.
+
+<p align="center">
+  <a href="https://github.com/sponsors/Podugboch">
+    <img src="https://img.shields.io/badge/❤️_Sponsor_Me_on_GitHub-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  </a>
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🛡️ Fortification & Engineering Standards
 
@@ -150,11 +194,11 @@ Detailed engineering breakdown of flagship systems:
 - 🧪 **Continuous Validation**: Automated GitHub Actions auditing markdown integrity, links, and documents on push.
 - 🤝 **Open Governance**: Standardized policies under [`SECURITY.md`](SECURITY.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), and [`LICENSE`](LICENSE).
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🤝 Let's Connect & Build
 
-Whether you are looking to collaborate on distributed systems, real-time protocols, algorithmic trading engines, or AI-native mobile apps, feel free to reach out:
+Whether you are looking to collaborate on distributed systems, real-time protocols, algorithmic trading engines, or AI-native mobile apps — let's talk.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/patrick-sean-odugboche-826115176"><img src="https://img.shields.io/badge/LinkedIn-Patrick%20Odugboche-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -162,6 +206,16 @@ Whether you are looking to collaborate on distributed systems, real-time protoco
   <a href="mailto:odu.pisc@gmail.com"><img src="https://img.shields.io/badge/Email-odu.pisc@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
+<br/>
+
+<!-- Profile View Counter -->
 <p align="center">
-  <sub>© 2026 Patrick Sean Odugboche • Built with engineering rigor, fortified against volatility.</sub>
+  <img src="https://komarev.com/ghpvc/?username=Podugboch&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&labelColor=1a1b27" />
 </p>
+
+<p align="center">
+  <sub>© 2026 Patrick Sean Odugboche · Built with engineering rigor, fortified against volatility.</sub>
+</p>
+
+<!-- Animated Wave Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0077b6&height=120&section=footer" width="100%" />
