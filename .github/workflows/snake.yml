@@ -5,11 +5,17 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
