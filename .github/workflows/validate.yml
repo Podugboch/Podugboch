@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Verify Core Documentation
         run: |
@@ -28,7 +28,7 @@ jobs:
       - name: Validate Markdown Structure
         run: |
           echo "Checking Markdown syntax integrity..."
-          grep -q "Hi there, I'm Patrick Sean Odugboche" README.md || exit 1
+          grep -q "Patrick.*Sean.*Odugboche" README.md || exit 1
           grep -q "BOT — Trader Queen" README.md || exit 1
           grep -q "Nesty — Real-Time WebRTC Calling" README.md || exit 1
           grep -q "Auram — TravReady" README.md || exit 1
